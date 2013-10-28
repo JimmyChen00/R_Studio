@@ -1,0 +1,37 @@
+1. Install R (http://cran.r-project.org/bin/windows/base/) and then R Studio (http://www.rstudio.com/ide/download/desktop).
+2. Download some datasets to work with. http://ratings.fide.com/toplist.phtml, http://www.yelp.com/dataset_challenge, http://www.kaggle.com/ 
+
+matrix of what each model represents
+get predictions from model in addition to graphical view
+
+Input Data
+Select a column
+
+
+references:
+http://stackoverflow.com/questions/381806/large-public-datasets/381834#381834
+http://www.youtube.com/watch?v=1Lh1HlBUf8k
+http://mathbabe.org/2012/09/27/columbia-data-science-course-week-4-k-means-classifiers-logistic-regression-evaluation/
+http://cran.r-project.org/web/views/TimeSeries.html
+
+
+
+
+Forecast() Example
+install.packages("fpp")
+library("fpp", lib.loc="C:/Users/Jimmy/Documents/R/win-library/3.0")
+beer <- aggregate(ausbeer)
+plot(beer)
+plot(a10)
+plot(taylor)
+plot(forecast(beer))
+plot(forecast(a10))
+plot(forecast(taylor))
+
+chessplayer = read.table(file.choose(), header= TRUE,sep = "\t")
+sfpd= read.table(file.choose(), header= TRUE,sep = ",")
+
+
+apendix:
+
+Ctrl L to clear screen
